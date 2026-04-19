@@ -6,19 +6,19 @@ const units: Unit[] = [
   {
     name: 'Unidade Taperaguá',
     description: 'Localizada na Rodovia Edval Lemos, ao lado da Secretaria de Iluminação Pública.',
-    image: 'https://picsum.photos/seed/unit1/800/600',
+    image: 'https://res.cloudinary.com/dqukldtq1/image/upload/v1776634043/WhatsApp_Image_2026-04-18_at_3.22.37_PM_eci1aw.jpg',
     mapUrl: '#',
   },
   {
     name: 'Unidade Povoado Pedras',
     description: 'Situada na Galeria 2105, também na Rodovia Edval Lemos.',
-    image: 'https://picsum.photos/seed/unit2/800/600',
+    image: 'https://res.cloudinary.com/dqukldtq1/image/upload/v1776634043/WhatsApp_Image_2026-04-18_at_10.35.13_AM_mzvu4f.jpg',
     mapUrl: '#',
   },
   {
     name: 'Unidade Praia do Francês',
     description: 'Localizada na Avenida Caravelas, Quadra B.',
-    image: 'https://picsum.photos/seed/unit3/800/600',
+    image: 'https://res.cloudinary.com/dqukldtq1/image/upload/v1776634043/WhatsApp_Image_2026-04-18_at_11.44.51_AM_k3ckp7.jpg',
     mapUrl: '#',
   },
 ];
@@ -46,7 +46,7 @@ export default function Units() {
                 <img
                   src={unit.image}
                   alt={unit.name}
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700"
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute top-4 right-4 h-12 w-12 bg-black-deep/50 backdrop-blur-md rounded-full flex items-center justify-center text-gold-elite border border-white/10 group-hover:bg-gold-elite group-hover:text-black-deep transition-colors">

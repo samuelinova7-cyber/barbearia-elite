@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
-import ecosystemPhoto from './foto_experience.jpeg';
+
+const ecosystemPhoto = "https://res.cloudinary.com/dqukldtq1/image/upload/v1776632433/WhatsApp_Image_2026-04-16_at_3.27.24_PM_vvrnm3.jpg";
 
 export default function About() {
   return (

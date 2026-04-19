@@ -13,8 +13,8 @@ export default function InformationTicker() {
   const duplicatedItems = [...infoItems, ...infoItems, ...infoItems];
 
   return (
-    <div className="marquee-container fixed top-[88px] lg:top-[104px] left-0 right-0 z-[45] border-y border-white/5 shadow-2xl">
-      <div className="marquee-content">
+    <div className="marquee-container fixed top-[72px] lg:top-[88px] left-0 right-0 z-[45] bg-gold-elite/95 backdrop-blur-md text-black-deep py-2 border-y border-gold-elite shadow-2xl">
+      <div className="marquee-content font-bold uppercase tracking-widest text-[10px]">
         {duplicatedItems.map((item, index) => (
           <span key={index} className="mx-8">
             {item}

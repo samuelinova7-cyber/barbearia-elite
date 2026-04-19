@@ -1,7 +1,8 @@
 import { motion } from 'motion/react';
 import { ShieldCheck, Zap, Scissors, Volume2, VolumeX } from 'lucide-react';
 import { useState, useRef } from 'react';
-import videoSrc from './video_transplante.mp4';
+
+const videoSrc = "https://res.cloudinary.com/dqukldtq1/video/upload/v1776632439/snapinsta.com.br-69e54158b20b2_foqadt.mp4";
 
 export default function HairTransplant() {
   const [isMuted, setIsMuted] = useState(true);
@@ -27,7 +28,7 @@ export default function HairTransplant() {
             className="flex-1"
           >
             <h2 className="text-gold-elite text-xs font-bold uppercase tracking-[0.3em] mb-4">Elite Capilar</h2>
-            <h3 className="text-4xl lg:text-5xl font-serif text-white-ice mb-8 uppercase tracking-tighter">TRANSPLANTE E ESTÉTICA AVANÇADA</h3>
+            <h3 className="text-4xl lg:text-5xl font-serif text-white-ice mb-8 uppercase tracking-tighter">PRÓTESE CAPILAR E ESTÉTICA AVANÇADA</h3>
             <p className="text-gray-400 font-light text-lg mb-8 italic leading-relaxed">
               "A tecnologia a serviço da sua imagem. Não tratamos apenas de fios, devolvemos a confiança de quem sabe onde quer chegar."
             </p>

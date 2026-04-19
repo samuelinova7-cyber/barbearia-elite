@@ -1,5 +1,6 @@
 import { Instagram, Youtube, Phone, Send } from 'lucide-react';
-import logo from './logo_elite.jpg';
+
+const logo = "https://res.cloudinary.com/dqukldtq1/image/upload/v1776632432/WhatsApp_Image_2026-04-16_at_2.41.58_PM_pkwmx7.jpg";
 
 export default function Footer() {
   return (
@@ -11,7 +12,7 @@ export default function Footer() {
               <img 
                 src={logo} 
                 alt="Elite Studio Barber Logo" 
-                className="h-16 w-16 object-contain rounded-full"
+                className="h-16 w-16 object-contain rounded-full border border-gold-elite/20"
               />
               <div className="text-2xl font-serif font-bold tracking-tighter">
                 <span className="text-white-ice">ELITE</span>
@@ -38,9 +39,9 @@ export default function Footer() {
           <div>
             <h5 className="text-gold-elite text-xs font-bold uppercase tracking-widest mb-8">Links Rápidos</h5>
             <ul className="space-y-4">
-              {['Início', 'Planos', 'Transplante', 'Serviços', 'Unidades'].map((link) => (
+              {['Início', 'Planos', 'Próteses', 'Serviços', 'Unidades'].map((link) => (
                 <li key={link}>
-                  <a href={`#${link.toLowerCase()}`} className="text-gray-500 hover:text-white-ice text-sm font-light transition-colors">
+                  <a href={`#${link.toLowerCase().replace('ó', 'o')}`} className="text-gray-500 hover:text-white-ice text-sm font-light transition-colors">
                     {link}
                   </a>
                 </li>

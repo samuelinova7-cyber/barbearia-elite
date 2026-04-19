@@ -1,7 +1,6 @@
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, Instagram, Youtube, Phone } from 'lucide-react';
 import { useState, useEffect } from 'react';
-import logo from './logo_elite.jpg';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -18,7 +17,8 @@ export default function Navbar() {
   const navLinks = [
     { name: 'Início', href: '#home' },
     { name: 'Planos', href: '#planos' },
-    { name: 'Transplante', href: '#transplante' },
+    { name: 'Próteses', href: '#proteses' },
+    { name: 'Estética', href: '#transplante' },
     { name: 'Serviços', href: '#servicos' },
     { name: 'Unidades', href: '#unidades' },
   ];
@@ -31,8 +31,8 @@ export default function Navbar() {
         }`}
       >
         <div className="container mx-auto px-6 flex items-center justify-between">
-          <div className="hidden lg:flex items-center space-x-8 flex-1">
-            {navLinks.slice(0, 3).map((link) => (
+          <div className="hidden lg:flex items-center space-x-6 flex-1">
+            {navLinks.slice(0, 4).map((link) => (
               <a
                 key={link.name}
                 href={link.href}
@@ -54,8 +54,8 @@ export default function Navbar() {
             </motion.div>
           </div>
 
-          <div className="hidden lg:flex items-center space-x-8 flex-1 justify-end">
-            {navLinks.slice(3).map((link) => (
+          <div className="hidden lg:flex items-center space-x-6 flex-1 justify-end">
+            {navLinks.slice(4).map((link) => (
               <a
                 key={link.name}
                 href={link.href}

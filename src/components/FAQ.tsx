@@ -40,8 +40,8 @@ const faqs = [
     a: 'Shampoo específico para barba (pH neutro para o rosto), Balm para alinhar e hidratar os fios, e Óleo para nutrir e dar brilho à barba.'
   },
   {
-    q: 'Cuidados com a barba após um transplante capilar?',
-    a: 'O repouso absoluto da área doadora na nuca e cuidado extremo ao lavar. Evite atrito e use apenas os produtos recomendados pela nossa equipe de estética capilar avançada.'
+    q: 'Cuidados com o cabelo após uma prótese capilar?',
+    a: 'O segredo é a higienização correta e a manutenção periódica com nossos especialistas. Ao contrário do que muitos pensam, você pode levar uma vida normal, inclusive praticar esportes e tomar banho de mar, desde que siga as orientações de limpeza pós-salitre.'
   }
 ];
 

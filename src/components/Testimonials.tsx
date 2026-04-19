@@ -154,7 +154,7 @@ export default function Testimonials() {
         <div className="mt-16 text-center">
            <div className="inline-flex items-center space-x-2 bg-gold-elite/10 px-6 py-2 rounded-full border border-gold-elite/20">
               <Star className="fill-gold-elite text-gold-elite" size={14} />
-              <span className="text-gold-elite text-[10px] font-bold uppercase tracking-widest">A Barbe barbearia mais bem avaliada de Alagoas</span>
+              <span className="text-gold-elite text-[10px] font-bold uppercase tracking-widest">A barbearia mais bem avaliada de Alagoas</span>
            </div>
         </div>
       </div>

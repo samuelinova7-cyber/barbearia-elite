@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { ShoppingBag, ArrowRight } from 'lucide-react';
-import photoProducts from './foto_produtos.jpg';
+
+const photoProducts = "https://res.cloudinary.com/dqukldtq1/image/upload/v1776632431/Captura_de_tela_2026-04-16_170233_l2ujo3.png";
 
 const products = [
   { name: 'Minoxidill', price: '90,00' },
@@ -50,7 +51,7 @@ export default function Shop() {
               <img 
                 src={photoProducts} 
                 alt="Elite Products Display" 
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
+                className="w-full h-full object-cover hover:scale-105 transition-all duration-1000"
               />
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black-deep/80 to-transparent p-10">
                 <p className="text-white-ice font-serif text-2xl italic tracking-tight">"A finalização perfeita para o seu estilo está aqui."</p>
@@ -59,7 +60,7 @@ export default function Shop() {
 
             <button className="gold-solid-btn w-full px-12 py-5 rounded-2xl text-sm font-bold uppercase tracking-widest flex items-center justify-center space-x-3 shadow-xl shadow-gold-elite/10 group">
               <ShoppingBag size={20} />
-              <span>Catálogo de Produtos</span>
+              <span>Chame no Whats App</span>
               <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
             </button>
           </motion.div>

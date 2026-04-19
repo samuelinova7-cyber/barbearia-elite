@@ -1,10 +1,11 @@
 import { motion } from 'motion/react';
 import { ChevronRight } from 'lucide-react';
-import logo from './logo_elite.jpg';
+
+const logo = "https://res.cloudinary.com/dqukldtq1/image/upload/v1776632432/WhatsApp_Image_2026-04-16_at_2.41.58_PM_pkwmx7.jpg";
 
 export default function Hero() {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-32 lg:pt-40">
       {/* Background with placeholder overlay */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-black-deep/80 z-10" />
@@ -33,10 +34,10 @@ export default function Hero() {
               </span>
             </div>
 
-            <h1 className="text-5xl lg:text-7xl font-serif font-bold text-white-ice leading-[1.1] mb-8">
-              Estilo Elite – <br />
+            <h1 className="text-5xl lg:text-8xl font-serif font-bold text-white-ice leading-[1] mb-8">
+              Estilo Elite <br />
               <span className="text-gold-elite italic font-normal">Modernidade,</span> <br />
-              Cuidado e Tradição
+              <span className="block mt-2">Cuidado e Tradição</span>
             </h1>
 
             <p className="max-w-xl text-gray-400 text-lg lg:text-xl mb-12 font-light leading-relaxed">
@@ -50,7 +51,7 @@ export default function Hero() {
                 <ChevronRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </button>
               <button className="gold-outline-btn w-full sm:w-auto px-10 py-5 rounded-full text-sm font-bold uppercase tracking-widest uppercase">
-                Implantes
+                Próteses Capilares
               </button>
             </div>
           </motion.div>

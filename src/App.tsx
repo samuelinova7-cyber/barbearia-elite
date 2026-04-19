@@ -6,7 +6,9 @@ import Cinematic from './components/Cinematic';
 import Shop from './components/Shop';
 import Services from './components/Services';
 import Units from './components/Units';
+import HairProsthesis from './components/HairProsthesis';
 import HairTransplant from './components/HairTransplant';
+import FrancesUnitSpecial from './components/FrancesUnitSpecial';
 import Gallery from './components/Gallery';
 import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
@@ -47,6 +49,10 @@ export default function App() {
           <About />
         </div>
 
+        <div id="proteses">
+           <HairProsthesis />
+        </div>
+
         <div id="transplante">
            <HairTransplant />
         </div>
@@ -56,6 +62,8 @@ export default function App() {
         <div id="loja">
           <Shop />
         </div>
+
+        <FrancesUnitSpecial />
 
         <section id="servicos">
           <Services />

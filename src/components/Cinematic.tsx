@@ -1,7 +1,8 @@
 import { motion } from 'motion/react';
 import { Volume2, VolumeX } from 'lucide-react';
 import { useState, useRef } from 'react';
-import videoSrc from './video_experience.mp4';
+
+const videoSrc = "https://res.cloudinary.com/dqukldtq1/video/upload/v1776632442/SnapInsta.to_AQPafHimi0RgW5pSJi2g5K5nmI9KT58B7m-PcSDFpbUg57nA8hWe1xEJlul6siOusFXHVYQIR-RDUrXkg2vrMT35YZQwKqFANJrErhg_f0cwyv.mp4";
 
 export default function Cinematic() {
   const [isMuted, setIsMuted] = useState(true);
